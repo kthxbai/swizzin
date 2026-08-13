@@ -1,5 +1,50 @@
 # Changelog
 
+## [3.15.0] (Feb 12 2026)
+
+### Removed
+- @flying-sausages: Remove mango (#1263)
+- @flying-sausages: remove: autodl (#1253)
+- @brettpetch: delete(readarr): Retirement of readarr due to metadata issues. (#1241)
+
+### New
+- @s0up4200: feat: Netronome (#1244)
+- @s0up4200: feat: qui (#1256)
+
+### Fixes
+- @s0up4200: fix: include netronome in user management scripts (#1257)
+- @flying-sausages: fix: bad grep in calibreweb udpater (#1260)
+- @flying-sausages: fix: calibre libxcb-cursor0 dependency (#1259)
+- @the-mann: Fix Kobo Sync (#942)
+- @brettpetch: bugfix(deluge): Ensure that python3-packaging is installed (#1271)
+
+### DX
+- @flying-sausages: formatting upgrade (#1248)
+- @flying-sausages: Add shellcheck source comments (#1279)
+- @flying-sausages: fix editorconfig shfmt support (#1278)
+
+
+## [3.14.0]
+
+## Aug 16, 2025
+
+### New
+
+- @brettpetch:    feat(nzbget): Add upgrade path to nzbget.com (#1222)
+- @martylukyy:    feat(qbittorrent): add support for 5.1.x (#1226)
+- @stickz:        rTorrent: Add support for 0.15.1 (#1207)
+- @stickz:        rTorrent: Add support for v0.15.5 (#1239)
+- @stickz:        rTorrent: Add 0.15.3 UDNS support (#1231)
+
+### Fixed
+
+- @brettpetch:    Sabnzbd: Fix base_url (#1225)
+- @brettpetch:    fix(deluge): Deluge 2.2 Support (#1227)
+- @brettpetch:    fix(utils): Increase RAM requirements for compiled (#1230)
+- @brettpetch:    @pre-commit fix: sync client_body_buffer_size with main config (#1200)
+- @daniel:        @pre-commit-fix syncthing apt url (#1197)
+- @brettpetch:    hotfix(tautulli): Python 3.12 not supported (#1240)
+
 ## [3.13.0]
 
 ## Nov 15, 2024
